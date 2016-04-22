@@ -6,5 +6,5 @@
 	$corr=$_POST["corr"];
 	$db=mysql_connect("localhost","root","");
 	mysql_select_db("registro",$db);
-	mysql_query("insert into registroentrada values('$iden','$nom','$dir','$tel','$corr')");
+	mysql_query("insert into clientes values('$iden','$nom','$dir','$tel','$corr')");
 ?>

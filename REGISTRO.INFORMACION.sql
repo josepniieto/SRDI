@@ -15,6 +15,8 @@ create database registro;
 show databases;
 use registro;
 show tables;
+
+
 create table clientes(
 identificacion bigint, 
 nombre varchar(30), 
