@@ -1,6 +1,16 @@
+<?php 
+	$trata=$_POST["trata"];
+	$clien=$_POST["clien"];
+	$desc=$_POST["desc"];
+	$can=$_POST["can"];
+	$db=mysql_connect("localhost","root","");
+	mysql_select_db("registro",$db);
+	mysql_query("insert into informacion values('$trata','$clien','$desc','$can')");
+?>
+
 <html>
 <head>
-	<title>prueba</title>
+	<title> Cliente Guardado </title>
 	<link rel="stylesheet" type="text/css" href="ESTILOS/bootstrap.css">
 </head>						
 <body>
@@ -57,9 +67,9 @@
 				</nav>
 		</div>
 		<div class="col-md-6">
-			<h1><strong>Bienvenidos</strong></h1>
+			<h1> Registro Guardado </h1>
 			<div class="well">
-			<p>Le damos la bienvenida a nuetro portal web donde podran hacer enfasis en todo lo reacionado con nuestros servicios de embalajes de madera.</p>
+			<p>Su registro a sido grabado satisfactoriamente.</p>
 			</div>
 		</div>
 		<div class="col-md-6">
