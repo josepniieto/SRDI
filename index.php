@@ -1,7 +1,10 @@
 <html>
 <head>
 	<title>prueba</title>
-	<link rel="stylesheet" type="text/css" href="ESTILOS/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="estilos/bootstrap.css">
+  <script type="text/javascript" src="js/jquery-2.2.3.js"></script>    
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
 </head>						
 <body>
 		<div class="container">
@@ -18,6 +21,11 @@
 		<div class="col-md-6">
 			<img src="logo.png" class="img-responsive" alt="responsive image">
 		</div>
-		
+
+    
+    <script>
+      $('.dropdown-toggle').dropdown();
+    </script>
+
 </body>
 </html>

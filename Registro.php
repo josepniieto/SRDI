@@ -1,7 +1,10 @@
  <html>
 <head>
 	<title>Registro Personas</title>
-	<link rel="stylesheet" type="text/css" href="ESTILOS/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="estilos/bootstrap.css">
+  <script type="text/javascript" src="js/jquery-2.2.3.js"></script>    
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
 </head>						
 <body>
 		<div class="container">
@@ -58,6 +61,12 @@
 		</div>
 		</div>
 		</div>
-		
+	
+
+    <script>
+      $('.dropdown-toggle').dropdown();
+    </script>
+
+  	
 </body>
 </html>
