@@ -8,14 +8,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
         </button>
-              <a class="navbar-brand" href="index.html">INICIO</a>
+              <a class="navbar-brand" href="index.php">INICIO</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="Registro.php">Registro<span class="sr-only">(current)</span></a></li>
-        <li><a href="clientes.html">Clientes</a></li> 
+        <li><a href="clientes.php">Clientes</a></li> 
       </ul>
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
@@ -24,7 +24,7 @@
         <button type="button" class="btn btn-info"> Buscar </button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">ATRAS</a></li>
+        <li><a href="index.php">ATRAS</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OPCIONES <span class="caret"></span></a>
           <ul class="dropdown-menu">
