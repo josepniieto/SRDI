@@ -8,23 +8,37 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
         </button>
-              <a class="navbar-brand" href="index.php">INICIO</a>
+              <a class="navbar-brand" href="index.php">SRDI</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="Registro.php">Registro<span class="sr-only">(current)</span></a></li>
-        <li><a href="clientes.php">Clientes</a></li> 
+        <!-- <li class="active"><a href="Registro.php">Registro<span class="sr-only">(current)</span></a></li> -->
+        <!-- <li><a href="clientes.php">Clientes</a></li>  -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Personas<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="registro.php">Adicionar Persona</a></li>
+            <li><a href="listarpersonas.php">Listar personas</a></li>
+            <li><a href="buscarpersonas.php">Buscar persona</a></li>
+
+          </ul>
+        </li>
+
       </ul>
-      <form class="navbar-form navbar-left" role="search">
+
+<!--       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
         <button type="button" class="btn btn-info"> Buscar </button>
       </form>
+ -->      
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php">ATRAS</a></li>
+
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OPCIONES <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -42,6 +56,7 @@
             <li><a href="#">Separated link</a></li>
           </ul>
         </li>
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
