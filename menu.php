@@ -26,6 +26,17 @@
 
           </ul>
         </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Certificados<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="registro.php">Adicionar Certificado</a></li>
+            <li><a href="listarcertificado.php">Listar de Certificados</a></li>
+            <li><a href="buscarcertificado.php">Buscar certificado</a></li>
+
+          </ul>
+        </li>
+
 
       </ul>
 
