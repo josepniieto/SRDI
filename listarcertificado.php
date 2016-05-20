@@ -27,6 +27,7 @@
               <tr>
                 <th>Tratamiento</th>
                 <th>Cliente</th>
+                <th>Otro</th>
                 <th>Descripcion</th>
                 <th>Cantidad</th>
               </tr>
@@ -39,6 +40,7 @@
                     <td><?= $row[0] ?></td>
                     <td><?= $row[1] ?></td>               
                     <td><?= $row[2] ?></td>               
+                    <td><?= $row[4] ?></td>               
                     <td><?= $row[3] ?></td>               
                   </tr>         
               <?php
